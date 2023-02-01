@@ -152,6 +152,27 @@ button {
     font-size: 15px;
 }
 
+.fontOrange:hover {
+    background: hsl(31, 77%, 52%);
+    border: 1px solid white;
+
+    color: white;
+}
+
+.fontCyan:hover {
+    background: hsl(184, 100%, 22%);
+    border: 1px solid white;
+
+    color: white;
+}
+
+.fontDarkCyan:hover {
+    background: hsl(179, 100%, 13%);
+    border: 1px solid white;
+
+    color: white;
+}
+
 /* 
 ==========================
 Button Fonts Color
@@ -176,3 +197,32 @@ Desktop View
 ==========================
 */
 
+@media screen and (min-width: 1000px) {
+
+    .main-box {
+        width: 70%;
+        margin: auto;
+
+        margin-top: 11%;
+    }
+    .box {
+        height: 33.33%;
+        width: 33.33%;
+        float: left;
+    }
+
+    #orange {
+        border-radius: 5px 0 0 5px;
+    }
+
+    #darkCyan {
+        border-radius: 0 5px 5px 0;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+
+    p {
+        font-size: 30px !important;
+    }
+}
