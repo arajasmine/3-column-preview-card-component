@@ -200,7 +200,7 @@ Desktop View
 @media screen and (min-width: 1000px) {
 
     .main-box {
-        width: 70%;
+        max-width: 70%;
         margin: auto;
 
         margin-top: 11%;
@@ -224,5 +224,15 @@ Desktop View
 
     p {
         font-size: 30px !important;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+
+    .main-box {
+        max-width: 65%;
+        margin: auto;
+
+        margin-top: 13%;
     }
 }
